@@ -1,19 +1,12 @@
 # estoque
 
 Instruções:
-    Obrigatórias:
-        instalar dependencias
-            yarn
-        
-        Criar base de dados
-            yarn sequelize db:create
 
-        Criar tabelas no banco
-            yarn sequelize db:migrate
+    instalar dependencias
+        yarn
     
-    Conhecimento:
-        Criar migrations
-            yarn sequelize migration:create --name=create-products
+    Criar base de dados
+        yarn sequelize db:create
 
-        Voltar migrate
-            yarn sequelize db:migrate:undo
+    Criar tabelas no banco
+        yarn sequelize db:migrate
