@@ -10,3 +10,6 @@ Instruções:
 
     Criar tabelas no banco
         yarn sequelize db:migrate
+
+    Inicar Server
+        yarn start
